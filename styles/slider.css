@@ -3,7 +3,6 @@
     display: flex;
     position: relative;
     margin: 0 auto;
-    
 }
 
 .slider {
@@ -22,6 +21,30 @@
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
     text-align: center;
+    position: relative;
+}
+
+.slider__item_descrip {
+    position: absolute;
+    left: 30px;
+    top: 70%;
+    color: #F7F7F7;
+    text-transform: capitalize;
+    min-width: 300px;
+    text-align: center;
+}
+
+.slider__item_descrip h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.slider__item_descrip p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 .slider__item img {
@@ -69,5 +92,3 @@
 .slider__control_right::before {
     background-image: url("../images/Vector\ \(2\).png");
 }
-
- 
