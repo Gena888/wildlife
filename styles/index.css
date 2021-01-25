@@ -109,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
 .logo-block {
     display: flex;
     align-items: center;
-    width: 100%;
 }
 
 .logo-block img {
@@ -123,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 32px;
     font-weight: 400;
     text-transform: uppercase;
+    color: #F7F7F7;
 }
 
 /* nav  */
@@ -208,7 +208,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    
 }
 
 .main-info h2 {
@@ -221,4 +220,100 @@ h1, h2, h3, h4, h5, h6 {
     color: #666666;
     font-size: 24px;
     padding-bottom: 120px;
+}
+
+/* text-form */
+
+.text-form-block {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.text-form-block p {
+    padding-bottom: 60px;
+}
+
+/* form block */
+
+.form-block {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.form-block input {
+    width: 540px;
+    background-color: transparent;
+    border: 1px solid #666666;
+    border-right: none;
+    padding-left: 15px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.form-block button {
+    width: 120px;
+    background-color: #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #F7F7F7;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+/* footer */
+
+.footer {
+    min-width: 1440px;
+    min-height: 359px;
+    background-image: url("/images/Rectangle_\(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer-inner {
+    min-height: 359px;
+    display: flex;
+    align-items: center;
+}
+
+/* footer nav  */
+
+.footer-nav {
+    margin-left: 120px;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #F7F7F7;
+    text-transform: capitalize;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav ul li {
+    padding-right: 85px;
+}
+
+.footer-nav ul li:last-child {
+    padding-right: 0;
+}
+
+/* footer social  */
+
+.social-icons {
+    margin-left: 120px;
+}
+.social-icons a{
+ padding-right: 27px;
+}
+.social-icons a:last-child{
+ padding-right: 0;
 }
