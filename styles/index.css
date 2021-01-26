@@ -298,7 +298,11 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-.footer-nav ul li {
+.footer-nav a {
+    color: #F7F7F7;
+}
+
+.footer-nav li {
     padding-right: 85px;
 }
 
@@ -311,9 +315,11 @@ h1, h2, h3, h4, h5, h6 {
 .social-icons {
     margin-left: 120px;
 }
-.social-icons a{
- padding-right: 27px;
+
+.social-icons a {
+    padding-right: 27px;
 }
-.social-icons a:last-child{
- padding-right: 0;
+
+.social-icons a:last-child {
+    padding-right: 0;
 }
