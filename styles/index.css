@@ -89,15 +89,16 @@ h1, h2, h3, h4, h5, h6 {
 /* header */
 
 .header {
-    background-image: url("/images/Rectangle.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 780px;
-    min-width: 1440px;
     color: #F7F7F7;
 }
 
+.header-content {
+    position: relative;
+}
+
 .first-line {
+    position: absolute;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 20px 0;
@@ -159,10 +160,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
 }
 
-/* info */
+/* main-greeting */
 
 .info-section {
-    margin-top: 120px;
+    padding-top: 210px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     color: #F7F7F7;
@@ -199,6 +200,14 @@ h1, h2, h3, h4, h5, h6 {
 .main {
     width: 100%;
     background-color: #CCCCCC;
+    min-width: 1440px;
+}
+
+.main-greeting {
+    background-image: url("/images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 780px;
     min-width: 1440px;
 }
 
