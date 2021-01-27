@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
 }
 
-.logo-block h4 {
+.logo-block h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -136,6 +136,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 23px;
     font-weight: 400;
     text-transform: capitalize;
+}
+
+.navigation-list img {
+    cursor: pointer;
 }
 
 .navigation-list li {
@@ -179,9 +183,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section p {
     font-size: 18px;
-    max-width: 274px;
+    max-width: 320px;
     line-height: 27px;
     margin-bottom: 50px;
+    letter-spacing: .1em;
 }
 
 .info-section button {
@@ -197,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* main  */
 
-.main {
+.latest-article {
     width: 100%;
     background-color: #CCCCCC;
     min-width: 1440px;
@@ -254,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
 }
 
-.form-block input {
+.email {
     width: 540px;
     background-color: transparent;
     border: 1px solid #666666;
@@ -265,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #666666;
 }
 
-.form-block button {
+.submit-button {
     width: 120px;
     background-color: #CD6326;
     border-radius: 0px 5px 5px 0px;
