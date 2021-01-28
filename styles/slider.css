@@ -27,9 +27,8 @@
 .slider__item_descrip {
     position: absolute;
     left: 30px;
-    top: 70%;
+    top: 70.6%;
     color: #F7F7F7;
-    text-transform: capitalize;
     min-width: 300px;
     text-align: center;
 }
@@ -38,7 +37,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    padding-bottom: 10px;
+    padding-bottom: 22px;
+    text-transform: capitalize;
 }
 
 .slider__item_descrip p {
