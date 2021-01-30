@@ -77,13 +77,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     margin: 0 auto;
-    position: relative;
     max-width: 1440px;
 }
 
 .content {
     margin: 0 auto;
     max-width: 1200px;
+    position: relative;
 }
 
 /* header */
@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     color: #F7F7F7;
     letter-spacing: 0.02em;
+    min-width: 1440px;
 }
 
 .header-content {
